@@ -26,6 +26,30 @@ const developers = [
       "Skilled programmer specializing in custom software solutions and application development.",
     color: "text-blue-500",
   },
+  {
+                name: "Alice",
+                title: "QA Tester",
+                tags: ["Selenium", "Java"],
+                description:
+                  "Quality assurance expert with experience in Selenium and Java for comprehensive testing solutions.",
+                color: "text-blue-500",
+              },
+              {
+                name: "Jay ",
+                title: "Accountant",
+                tags: ["Tally", "Accounting"],
+                description:
+                  "Expert in financial management and accounting with comprehensive knowledge of Tally software..",
+                color: "text-pink-500",
+              },
+              {
+                name: "Jitedra",
+                title: "Software Developer",
+                tags: ["Java", "Software"],
+                description:
+                  "Skilled programmer specializing in custom software solutions and application development.",
+                color: "text-blue-500",
+              },
 ];
 
 const DeveloperCard = ({ name, title, tags, description, color }) => (
