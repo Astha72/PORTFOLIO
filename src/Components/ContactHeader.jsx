@@ -1,6 +1,8 @@
 import { FaGithub, FaInstagram, FaLinkedin, FaPhone, FaWhatsapp } from "react-icons/fa";
 import { FaLocationPinLock, FaMapLocation } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
+import '@fortawesome/fontawesome-free/css/all.min.css';
+
 
 function ContactHeader(){
     return(
@@ -32,7 +34,7 @@ function ContactHeader(){
 
             <div  className="">
                 <div> Phone</div>
-                <div>+91 8302548250</div>
+                <div>123456789</div>
             </div>
           </div>
  <br />
@@ -44,7 +46,7 @@ function ContactHeader(){
 
             <div  className="">
                 <div> Email</div>
-                <div>asthagautam20@gmail.com</div>
+                <div>xyz@gmail.com</div>
             </div>
           </div>
  
@@ -64,10 +66,33 @@ function ContactHeader(){
 <h2 className="p-3 font-bold text-white text-xl">Connect with Us</h2>
 
 <div className="flex items-center space-x-4">
-    <div className="w-8 h-8 rounded-full bg-blue-700 text-blue-200 flex items-center justify-center hover:bg-pink-600"><FaGithub/></div>
-    <div className="w-8 h-8 rounded-full bg-blue-700 text-blue-200 flex items-center justify-center text-center hover:bg-pink-600"> <FaLinkedin/></div>
-    <div className="w-8 h-8 rounded-full bg-blue-700 text-blue-200 flex items-center justify-center hover:bg-pink-600"><FaWhatsapp/></div>
-    <div className="w-8 h-8 rounded-full bg-blue-700 text-blue-200 flex items-center justify-center hover:bg-pink-600"><FaInstagram/></div>
+  {/* GitHub */}
+  <a href="https://github.com/Astha72" target="_blank" rel="noopener noreferrer">
+    <div className="w-8 h-8 rounded-full bg-blue-700 text-blue-200 flex items-center justify-center hover:bg-pink-600">
+      <FaGithub />
+    </div>
+  </a>
+
+  {/* LinkedIn */}
+  <a href="https://www.linkedin.com/company/innovatex-technology/" target="_blank" rel="noopener noreferrer">
+    <div className="w-8 h-8 rounded-full bg-blue-700 text-blue-200 flex items-center justify-center hover:bg-pink-600">
+      <FaLinkedin />
+    </div>
+  </a>
+
+  {/* WhatsApp */}
+  <a href="https://wa.me/123456789" target="_blank" rel="noopener noreferrer">
+    <div className="w-8 h-8 rounded-full bg-blue-700 text-blue-200 flex items-center justify-center hover:bg-pink-600">
+      <FaWhatsapp />
+    </div>
+  </a>
+
+  {/* Instagram */}
+  <a href="https://www.instagram.com/innovatex_tech" target="_blank" rel="noopener noreferrer">
+    <div className="w-8 h-8 rounded-full bg-blue-700 text-blue-200 flex items-center justify-center hover:bg-pink-600">
+      <FaInstagram />
+    </div>
+  </a>
 </div>
 <br />
 <div className="bg-[#25D3661a] rounded-md
@@ -114,7 +139,7 @@ function ContactHeader(){
         <label className="block text-sm mb-1">Your Name</label>
         <input
           type="text"
-          placeholder="John Doe"
+          placeholder="jerry"
           className="w-full px-4 py-2 rounded-md bg-gray-800 text-white placeholder-gray-400 border border-gray-700 focus:outline-none focus:ring-2 focus:ring-pink-500"
         />
       </div>

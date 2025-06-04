@@ -18,11 +18,11 @@ function Footer() {
             Professional Full-Stack Mobile & Web Developer providing high-quality development services and innovative solutions for your digital needs.
           </p>
           <div className="flex gap-4 mt-6">
-            <a href="#"><FaGithub className="bg-[#222] p-2 rounded-full text-3xl" /></a>
-            <a href="#"><FaLinkedin className="bg-[#222] p-2 rounded-full text-3xl" /></a>
-            <a href="#"><FaInstagram className="bg-[#222] p-2 rounded-full text-3xl" /></a>
+            <a href="https://github.com/Astha72 "><FaGithub className="bg-[#222] p-2 rounded-full text-3xl" /></a>
+            <a href="https://www.linkedin.com/company/innovatex-technology/"><FaLinkedin className="bg-[#222] p-2 rounded-full text-3xl" /></a>
+            <a href="https://www.instagram.com/innovatex_tech"><FaInstagram className="bg-[#222] p-2 rounded-full text-3xl" /></a>
             <a href="#"><FaTwitter className="bg-[#222] p-2 rounded-full text-3xl" /></a>
-            <a href="#"><FaWhatsapp className="bg-[#222] p-2 rounded-full text-3xl" /></a>
+            <a href="https://wa.me/123456789"><FaWhatsapp className="bg-[#222] p-2 rounded-full text-3xl" /></a>
           </div>
         </div>
 

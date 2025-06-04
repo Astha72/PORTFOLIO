@@ -32,6 +32,7 @@ import Footer from './Components/footer';
       <section id="project"><Project /></section>
       <section><HowWework /></section>
       <section id="team"><Teamstatus /></section>
+      <section id="team"><Teamsection /></section>
       <section id ="testimonails"><TestimonialSlider /></section>
       <section id="contact"><ContactHeader /></section>
       <section><LocationCard /></section>
